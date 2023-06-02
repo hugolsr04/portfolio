@@ -1,0 +1,143 @@
+body {
+    background-color: white;
+}
+
+/* Réinitialisation des marges et des rembourrages */
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'en-tête */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+/* Style du logo */
+.logo {
+    margin-right: auto;
+    /* Pour pousser le logo à gauche */
+}
+
+/* Style de la barre de navigation */
+nav ul {
+    list-style-type: none;
+}
+
+/* Style des éléments de la liste */
+nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Style des liens */
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}uzbodujka
+
+/* Style des liens au survol de la souris */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+/* Réinitialisation des marges et des rembourrages */
+body,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de la barre de séparation */
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+#separator1 {
+    margin-top: 20px;
+}
+
+#separator2 {
+    margin-top: 40px;
+}
+
+/* Style du contenu principal */
+.main-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style du Mon Portfolio */
+.main-content h2 {
+    font-size: 70px;
+}
+
+/* Style du titre Me Contacter */
+.subtitle {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 400px; /* Augmentez cette valeur pour décaler davantage vers la droite */
+    margin-top: 20px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.map-container #map {
+    flex: 1;
+    height: 400px;
+}
+
+.map-container .map-text {
+    margin-right: 100px; /* Ajustez cette valeur selon votre préférence */
+}
+
+.pdf-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pdf-container h4 {
+    font-size: 20px;
+}
+
+.pdf-container a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.pdf-container a:hover {
+    background-color: #0056b3;
+}
+
+.pdf-container embed {
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+}
