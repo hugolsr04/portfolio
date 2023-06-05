@@ -1,4 +1,3 @@
-//Code pour décendre le header
 window.addEventListener("scroll", function () {
   var header = document.querySelector(".header");
   var separator = document.querySelector("#separator1");
