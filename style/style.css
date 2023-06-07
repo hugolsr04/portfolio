@@ -2,14 +2,12 @@ body {
     background-color: white;
 }
 
-/* Réinitialisation des marges et des rembourrages */
 body,
 ul {
     margin: 0;
     padding: 0;
 }
 
-/* Style de l'en-tête */
 .header {
     display: flex;
     align-items: center;
@@ -20,7 +18,6 @@ ul {
     transition: background-color 2s ease;
 }
 
-/* Style de la barre de navigation en position fixe */
 .fixed-header {
     position: sticky;
     top: 0;
@@ -29,42 +26,35 @@ ul {
     color: white;
 }
 
-/* Style du logo */
 .logo {
     margin-right: auto;
 }
 
-/* Style de la barre de navigation */
 nav ul {
     list-style-type: none;
 }
 
-/* Style des éléments de la liste */
 nav ul li {
     display: inline-block;
     margin: 10px;
 }
 
-/* Style des liens */
 nav ul li a {
     color: black;
     text-decoration: none;
     padding: 5px 10px;
 }
 
-/* Style des liens au survol de la souris */
 nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Réinitialisation des marges et des rembourrages */
 body,
 div {
     margin: 0;
     padding: 0;
 }
 
-/* Style de la barre de séparation */
 .separator {
     width: 100%;
     height: 1px;
@@ -80,18 +70,15 @@ div {
     margin-top: 40px;
 }
 
-/* Style du contenu principal */
 .main-content {
     text-align: center;
     margin-top: 20px;
 }
 
-/* Style du Mon Portfolio */
 .main-content h2 {
     font-size: 70px;
 }
 
-/* Style du titre Me Contacter */
 .titre3 {
     font-size: 30px;
     text-align: left;
@@ -151,104 +138,13 @@ div {
     color: white;
 }
 
+
 /* A Propos */
-body {
-    background-color: white;
-}
-
-body,
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    color: black;
-    padding: 10px;
-    z-index: 10px;
-    transition: background-color 2s ease;
-}
-
-.fixed-header {
-    position: sticky;
-    top: 0;
-    z-index: 7;
-    background-color: black;
-    color: white;
-}
-
-.logo {
-    margin-right: auto;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 10px;
-}
-
-nav ul li a {
-    color: black;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-body,
-div {
-    margin: 0;
-    padding: 0;
-}
-
-.separator {
-    width: 100%;
-    height: 1px;
-    background-color: black;
-    margin-top: 20px;
-}
-
-#separator1 {
-    margin-top: 20px;
-}
-
-#separator2 {
-    margin-top: 40px;
-}
-
-.main-content {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.main-content h2 {
-    font-size: 70px;
-}
-
 .intro-text {
     text-align: center !important;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.titre3 {
-    font-size: 30px;
-    text-align: left;
-    margin-left: 400px;
-    margin-top: 20px;
-}
-
-.menu.is-white a {
-    color: white;
 }
 
 .certifications1 {
@@ -290,8 +186,8 @@ div {
 }
 
 .certifications2 embed {
-    width: 500px;
-    height: 700px;
+    width: 485px;
+    height: 745px;
     order: 1;
 }
 
@@ -325,105 +221,12 @@ div {
 
 .pdf-container embed {
     margin-top: 20px;
-    width: 100%;
-    height: 100px;
+    width: 500px;
+    height: 800px;
 }
 
-/* Experiences pros */
-body {
-    background-color: white;
-    height: 100%;
-}
 
-body,
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    color: black;
-    padding: 10px;
-    z-index: 10px;
-    transition: background-color 2s ease;
-}
-
-.fixed-header {
-    position: sticky;
-    top: 0;
-    z-index: 7;
-    background-color: black;
-    color: white;
-}
-
-.logo {
-    margin-right: auto;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 10px;
-}
-
-nav ul li a {
-    color: black;
-    text-decoration: none;
-    padding: 5px 10px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-body,
-div {
-    margin: 0;
-    padding: 0;
-}
-
-.separator {
-    width: 100%;
-    height: 1px;
-    background-color: black;
-    margin-top: 20px;
-}
-
-#separator1 {
-    margin-top: 20px;
-}
-
-#separator2 {
-    margin-top: 40px;
-}
-
-.main-content {
-    text-align: center;
-    margin-top: 20px;
-    height: 100%;
-}
-
-.main-content h2 {
-    font-size: 70px;
-}
-
-.titre3 {
-    font-size: 30px;
-    text-align: left;
-    margin-left: 400px;
-    margin-top: 20px;
-}
-
-.menu.is-white a {
-    color: white;
-}
-
+/* Experiences proffessionnelles */
 .liste2022 {
     display: flex;
     flex-direction: column;
