@@ -228,33 +228,21 @@ div {
 
 /* Experiences proffessionnelles */
 .liste2022 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 400px;
-    margin-top: 20px;
-    min-height: 100%;
-    flex-grow: 1;
+    
 }
 
-.liste2022 ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    flex-grow: 1;
-}
-
-.liste2022 li {
-    margin-bottom: 10px;
+.map-container {
     display: flex;
+    justify-content: center;
     align-items: center;
+    max-width: 30%;
+    margin: 0 auto;
+    z-index: 2;
 }
 
-.liste2022 li:before {
-    content: "";
-    display: inline-block;
-    width: 4px;
-    height: 100%;
-    background-color: black;
-    margin-right: 10px;
+.map-container #map {
+    flex: 1;
+    height: 400px;
+    z-index: 1;
 }
+
