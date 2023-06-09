@@ -70,6 +70,10 @@ div {
     margin-top: 40px;
 }
 
+#separator3 {
+    margin-top: 20px;
+}
+
 .main-content {
     text-align: center;
     margin-top: 20px;
@@ -237,7 +241,7 @@ div {
 .listes h3 {
     font-size: 30px;
     text-align: left;
-    margin-left: -900px; /* Ajustez la valeur de la marge selon vos besoins */
+    margin-left: -800px;
     margin-top: 20px;
 }
 
@@ -245,32 +249,11 @@ div {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50%;
-    margin: 0 auto;
-    z-index: 2;
+    max-width: 100%;
+    margin-top: 30px;
 }
 
 .listes .map-container #map {
-    flex: 1;
-    height: 400px;
-    width: 400px;
-    z-index: 1;
-}
-
-.listes ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 20px; /* Ajustez la valeur selon vos préférences */
-}
-
-.listes li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.listes li::before {
-    content: "\2022";
-    margin-right: 10px;
+    height: 500px;
+    width: 100%;
 }
