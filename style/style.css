@@ -227,22 +227,50 @@ div {
 
 
 /* Experiences proffessionnelles */
-.liste2022 {
-    
+.listes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.map-container {
+.listes h3 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: -900px; /* Ajustez la valeur de la marge selon vos besoins */
+    margin-top: 20px;
+}
+
+.listes .map-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 30%;
+    max-width: 50%;
     margin: 0 auto;
     z-index: 2;
 }
 
-.map-container #map {
+.listes .map-container #map {
     flex: 1;
     height: 400px;
+    width: 400px;
     z-index: 1;
 }
 
+.listes ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px; /* Ajustez la valeur selon vos préférences */
+}
+
+.listes li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.listes li::before {
+    content: "\2022";
+    margin-right: 10px;
+}
