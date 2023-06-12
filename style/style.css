@@ -60,7 +60,7 @@ div {
     height: 1px;
     background-color: black;
     margin-top: 20px;
-} 
+}
 
 .main-content {
     text-align: center;
@@ -280,4 +280,14 @@ div {
 
 .link-container {
     text-align: center;
+}
+
+.conclusion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: 0 auto;
 }
