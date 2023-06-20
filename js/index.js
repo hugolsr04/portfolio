@@ -6,7 +6,7 @@ window.addEventListener("scroll", function () {
 
   var separatorPosition = separator.getBoundingClientRect().bottom;
 
-  if (window.pageYOffset > separatorPosition) {
+  if (window.scrollY > separatorPosition) {
     header.classList.add("fixed-header");
     menu.classList.add("is-white");
   } else {
